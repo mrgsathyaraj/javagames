@@ -83,6 +83,8 @@ public class TestList {
         obj2.add(1);
         obj2.add(100);
 
+
+
         Collections.sort(obj2);
 
         System.out.println("sorted array list :" + obj2);
