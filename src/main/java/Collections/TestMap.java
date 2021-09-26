@@ -22,7 +22,7 @@ public class TestMap
      objmap.put(null,null);
      objmap.put(26,null);
 
-        System.out.println("contains key chck :"+objmap.containsKey("1"));
+        System.out.println("contains key chck :"+objmap.containsKey(3));
 
         System.out.println("contains value chck :"+objmap.containsValue("D"));
         objmap.remove("O");
@@ -46,7 +46,7 @@ public class TestMap
 
         }
 
-        Iterator<Map.Entry<Integer, String>> itl = objmap.entrySet().iterator();
+        Iterator itl = objmap.entrySet().iterator();
         while(itl.hasNext())
         {
             System.out.println("iterate " + itl.next());

@@ -1,9 +1,8 @@
 package Collections;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.List;
+import com.sun.media.sound.SoftMidiAudioFileReader;
+
+import java.util.*;
 import java.util.stream.Collector;
 
 public class TestList {
@@ -94,6 +93,7 @@ public class TestList {
 
         Collections.swap(obj2,0,2);
         System.out.println("swapped  array list :" + obj2);
+
 
     }
 
